@@ -280,13 +280,19 @@ public class CultivationManager : MonoBehaviour
         if(CoreNumber.text == "")CoreNumber.text = BeforeIFNum.ToString();
 
         CurrentIFNum = int.Parse(CoreNumber.text);
-        if(CurrentIFNum < 1 || CurrentIFNum > gameManager.objectList.objects.Length + 1)CoreNumber.text = BeforeIFNum.ToString();
+        if(CurrentIFNum < 1 || CurrentIFNum > gameManager.objectList.objects.Length + 1)
+        {
+            CoreNumber.text = BeforeIFNum.ToString();
+            return;
+        }
+        
         if(gameManager.objectList.objects[CurrentIFNum - 1].Lock)
         {
             CoreNumber.text = BeforeIFNum.ToString();
             NotRelease_Text.gameObject.SetActive(true);
             Invoke("CoreNotRelease",3);
         }
+        else CoreNumber.text = CurrentIFNum.ToString();
         
         cultivationStatusList.cultivationStatus.SelectCoreNum = int.Parse(CoreNumber.text) - 1;
         CurrentIFNum = int.Parse(CoreNumber.text);

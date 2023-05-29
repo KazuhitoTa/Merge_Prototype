@@ -24,7 +24,7 @@ public class GamePartStatus
 public class GameManagerFunction : MonoBehaviour
 {
     GameManager gameManager;
-    private string FolderNamePath = "/SaveFile/";
+    private string FolderNamePath = "/";
 
     /// <summary>
     /// 培養シーン開始時に呼ばれる

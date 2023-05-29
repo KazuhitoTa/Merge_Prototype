@@ -37,7 +37,7 @@ public sealed class SystemManager : MonoBehaviour
         DontDestroyOnLoad(this);
 
         ProjectPath = Application.dataPath;
-        FilePath = ProjectPath + "/SaveFile/ObjectSaveData.json";
+        FilePath = ProjectPath + "/ObjectSaveData.json";
 
         string UnitData = File.ReadAllText(FilePath);
         UnitList = JsonUtility.FromJson<GameManager.ObjectList>(UnitData);
@@ -68,6 +68,7 @@ public sealed class SystemManager : MonoBehaviour
         {
             SceneManager.LoadScene("StageSelect");
         }
+        if(Input.GetKeyDown(KeyCode.Escape))GameEnd();
     }
 
     /// <summary>
@@ -98,5 +99,14 @@ public sealed class SystemManager : MonoBehaviour
             
         }
         BeforeScene = NextScene.name;
+    }
+
+    public void GameEnd()
+    {
+        #if UNITY_EDITOR
+            UnityEditor.EditorApplication.isPlaying = false;
+        #else
+            Application.Quit();
+        #endif
     }
 }
