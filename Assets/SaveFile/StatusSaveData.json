@@ -1,0 +1,22 @@
+{
+    "objects": [
+        {
+            "Name": "ahgf",
+            "GameObj": {
+                "instanceID": -72366
+            },
+            "Vec3": {
+                "x": 1.0,
+                "y": 2.0,
+                "z": 3.0
+            },
+            "_status": {
+                "Lv": 1,
+                "Hp": 2,
+                "Attack": 3,
+                "Defence": 4,
+                "Xp": 5
+            }
+        }
+    ]
+}

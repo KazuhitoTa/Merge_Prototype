@@ -1,0 +1,27 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6a61d296e1a401645a5226059e0de3ef, type: 3}
+  m_Name: EnemyStatusSO
+  m_EditorClassIdentifier: 
+  enemyStatusList:
+  - enemyModel: {fileID: 3255399201851848945, guid: ce0d969b1c7a1034a92f63c3c4ab722c, type: 3}
+    enemyName: "\u30B9\u30B1\u30EB\u30C8\u30F3"
+    hp: 10
+    attackSpeed: 1
+    attack: 3
+    speed: 1
+  - enemyModel: {fileID: 3255399201851848945, guid: ed037954af7e7d5409b2bce5973d2723, type: 3}
+    enemyName: "\u30B9\u30B1\u30EB\u30C8\u30F32"
+    hp: 2
+    attackSpeed: 1
+    attack: 4
+    speed: 2

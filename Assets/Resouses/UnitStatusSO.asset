@@ -1,0 +1,85 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: aa803a4ecdd458d4fbed046226819061, type: 3}
+  m_Name: UnitStatusSO
+  m_EditorClassIdentifier: 
+  unitStatusList:
+  - unitModel: {fileID: 6561503023861728003, guid: 0c8dcb33a4058eb40ad3c9cc3436c3c3, type: 3}
+    bulletModel: {fileID: 89168579826020583, guid: 8c8f0c71ca296ea46b4c35239762eb2f, type: 3}
+    unitName: 
+    hp: 0
+    attackSpeed: 0
+    attack: 0
+    unitNumber: 0
+  - unitModel: {fileID: 904576042726261223, guid: 8ebf2f6d362ae194b8e3602d80543838, type: 3}
+    bulletModel: {fileID: 89168579826020583, guid: 8c8f0c71ca296ea46b4c35239762eb2f, type: 3}
+    unitName: 
+    hp: 0
+    attackSpeed: 0
+    attack: 0
+    unitNumber: 0
+  - unitModel: {fileID: 4324386156750565990, guid: 515639b0c33661b43b3d1787ed17e94a, type: 3}
+    bulletModel: {fileID: 89168579826020583, guid: 8c8f0c71ca296ea46b4c35239762eb2f, type: 3}
+    unitName: 
+    hp: 0
+    attackSpeed: 0
+    attack: 0
+    unitNumber: 0
+  - unitModel: {fileID: 4324386156750565990, guid: 9223d9dd0ee018644a0293a89190bc51, type: 3}
+    bulletModel: {fileID: 89168579826020583, guid: 8c8f0c71ca296ea46b4c35239762eb2f, type: 3}
+    unitName: 
+    hp: 0
+    attackSpeed: 0
+    attack: 0
+    unitNumber: 0
+  - unitModel: {fileID: 4324386156750565990, guid: 7dc42e6b63120a544b6a6ff9290ee315, type: 3}
+    bulletModel: {fileID: 89168579826020583, guid: 8c8f0c71ca296ea46b4c35239762eb2f, type: 3}
+    unitName: 
+    hp: 0
+    attackSpeed: 0
+    attack: 0
+    unitNumber: 0
+  - unitModel: {fileID: 6561503023861728003, guid: 96e03d1e388780540bd47361f6174a61, type: 3}
+    bulletModel: {fileID: 89168579826020583, guid: 8c8f0c71ca296ea46b4c35239762eb2f, type: 3}
+    unitName: 
+    hp: 0
+    attackSpeed: 0
+    attack: 0
+    unitNumber: 0
+  - unitModel: {fileID: 4324386156750565990, guid: 35d74199644c99b42b55c1f93e7280dd, type: 3}
+    bulletModel: {fileID: 89168579826020583, guid: 8c8f0c71ca296ea46b4c35239762eb2f, type: 3}
+    unitName: 
+    hp: 0
+    attackSpeed: 0
+    attack: 0
+    unitNumber: 0
+  - unitModel: {fileID: 904576042726261223, guid: c3e36902ef704b8439cae22257bfbcb8, type: 3}
+    bulletModel: {fileID: 89168579826020583, guid: 8c8f0c71ca296ea46b4c35239762eb2f, type: 3}
+    unitName: 
+    hp: 0
+    attackSpeed: 0
+    attack: 0
+    unitNumber: 0
+  - unitModel: {fileID: 904576042726261223, guid: 556039271a4ea5e4196b72b4855f01e9, type: 3}
+    bulletModel: {fileID: 89168579826020583, guid: 8c8f0c71ca296ea46b4c35239762eb2f, type: 3}
+    unitName: 
+    hp: 0
+    attackSpeed: 0
+    attack: 0
+    unitNumber: 0
+  - unitModel: {fileID: 904576042726261223, guid: f4f3d5459aba21146a944097a278e730, type: 3}
+    bulletModel: {fileID: 89168579826020583, guid: 8c8f0c71ca296ea46b4c35239762eb2f, type: 3}
+    unitName: 
+    hp: 0
+    attackSpeed: 0
+    attack: 0
+    unitNumber: 0

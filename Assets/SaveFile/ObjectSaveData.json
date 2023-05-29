@@ -1,0 +1,109 @@
+{
+    "objects": [
+        {
+            "Name": "1",
+            "Lock": false,
+            "GameObj": {
+                "instanceID": 0
+            },
+            "Vec3": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0
+            },
+            "_status": {
+                "Lv": 6,
+                "Hp": 15,
+                "Attack": 6,
+                "AttackSpeed": 0.10000000149011612,
+                "Defence": 6,
+                "LvUpTime": 10,
+                "ObjNum": 1
+            }
+        },
+        {
+            "Name": "2",
+            "Lock": false,
+            "GameObj": {
+                "instanceID": 0
+            },
+            "Vec3": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0
+            },
+            "_status": {
+                "Lv": 3,
+                "Hp": 5,
+                "Attack": 14,
+                "AttackSpeed": 0.4000000059604645,
+                "Defence": 2,
+                "LvUpTime": 30,
+                "ObjNum": 2
+            }
+        },
+        {
+            "Name": "3",
+            "Lock": false,
+            "GameObj": {
+                "instanceID": 0
+            },
+            "Vec3": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0
+            },
+            "_status": {
+                "Lv": 1,
+                "Hp": 20,
+                "Attack": 3,
+                "AttackSpeed": 0.30000001192092898,
+                "Defence": 5,
+                "LvUpTime": 60,
+                "ObjNum": 3
+            }
+        },
+        {
+            "Name": "4",
+            "Lock": true,
+            "GameObj": {
+                "instanceID": 0
+            },
+            "Vec3": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0
+            },
+            "_status": {
+                "Lv": 1,
+                "Hp": 50,
+                "Attack": 10,
+                "AttackSpeed": 0.5,
+                "Defence": 8,
+                "LvUpTime": 300,
+                "ObjNum": 4
+            }
+        },
+        {
+            "Name": "5",
+            "Lock": true,
+            "GameObj": {
+                "instanceID": 0
+            },
+            "Vec3": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0
+            },
+            "_status": {
+                "Lv": 1,
+                "Hp": 500,
+                "Attack": 100,
+                "AttackSpeed": 1.0,
+                "Defence": 0,
+                "LvUpTime": 3600,
+                "ObjNum": 5
+            }
+        }
+    ]
+}

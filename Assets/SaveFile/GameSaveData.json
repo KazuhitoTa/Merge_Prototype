@@ -1,0 +1,12 @@
+{
+    "ProjectPath": "C:/Game/Unity/huwahuwatestN2/Assets",
+    "GameDataFile": "GameSaveData.json",
+    "PlayerDataFile": "PlayerSaveData.json",
+    "CultivationDataFile": "CultivationSaveData.json",
+    "ObjectDataFile": "ObjectSaveData.json",
+    "ObjectInitDataFile": "ObjectInitSaveData.json",
+    "FirstPlayTime": "2023/05/22 12:31:02",
+    "LastPlayTime": "2023/05/26 14:52:00",
+    "Initialize": false,
+    "a": []
+}

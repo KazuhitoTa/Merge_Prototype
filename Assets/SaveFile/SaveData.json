@@ -1,0 +1,22 @@
+{
+    "objects": [
+        {
+            "Name": "スライム",
+            "GameObj": {
+                "instanceID": 0
+            },
+            "Vec3": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0
+            },
+            "_status": {
+                "Lv": 1,
+                "Hp": 5,
+                "Attack": 1,
+                "Defence": 1,
+                "Xp": 0
+            }
+        }
+    ]
+}

@@ -1,0 +1,141 @@
+{
+    "objects": [
+        {
+            "Name": "1",
+            "Lock": false,
+            "GameObj": {
+                "instanceID": 0
+            },
+            "Vec3": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0
+            },
+            "_status": {
+                "Lv": 1,
+                "Hp": 5,
+                "Attack": 1,
+                "AttackSpeed": 0.1,
+                "Defence": 1,
+                "LvUpTime": 10,
+                "ObjNum": 1
+            }
+        },
+        {
+            "Name": "2",
+            "Lock": true,
+            "GameObj": {
+                "instanceID": 0
+            },
+            "Vec3": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0
+            },
+            "_status": {
+                "Lv": 1,
+                "Hp": 3,
+                "Attack": 10,
+                "AttackSpeed": 0.4,
+                "Defence": 0,
+                "LvUpTime": 30,
+                "ObjNum": 2
+            }
+        },
+        {
+            "Name": "3",
+            "Lock": true,
+            "GameObj": {
+                "instanceID": 0
+            },
+            "Vec3": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0
+            },
+            "_status": {
+                "Lv": 1,
+                "Hp": 20,
+                "Attack": 3,
+                "AttackSpeed": 0.3,
+                "Defence": 5,
+                "LvUpTime": 60,
+                "ObjNum": 3
+            }
+        },
+        {
+            "Name": "4",
+            "Lock": true,
+            "GameObj": {
+                "instanceID": 0
+            },
+            "Vec3": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0
+            },
+            "_status": {
+                "Lv": 1,
+                "Hp": 50,
+                "Attack": 10,
+                "AttackSpeed": 0.5,
+                "Defence": 8,
+                "LvUpTime": 300,
+                "ObjNum": 4
+            }
+        },
+        {
+            "Name": "5",
+            "Lock": true,
+            "GameObj": {
+                "instanceID": 0
+            },
+            "Vec3": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0
+            },
+            "_status": {
+                "Lv": 1,
+                "Hp": 500,
+                "Attack": 100,
+                "AttackSpeed": 1.0,
+                "Defence": 0,
+                "LvUpTime": 3600,
+                "ObjNum": 5
+            }
+        }
+    ],
+    "Growth_Value": [
+        {
+            "Name": "1",
+            "GrowHp_Value": 2,
+            "GrowAttack_Value": 1,
+            "GrowDefence_Value": 1
+        },
+        {
+            "Name": "2",
+            "GrowHp_Value": 1,
+            "GrowAttack_Value": 2,
+            "GrowDefence_Value": 1
+        },
+        {
+            "Name": "3",
+            "GrowHp_Value": 3,
+            "GrowAttack_Value": 1,
+            "GrowDefence_Value": 1
+        },
+        {
+            "Name": "4",
+            "GrowHp_Value": 4,
+            "GrowAttack_Value": 3,
+            "GrowDefence_Value": 2
+        },
+        {
+            "Name": "5",
+            "GrowHp_Value": 5,
+            "GrowAttack_Value": 5,
+            "GrowDefence_Value": 5
+        }
+    ]
+}
