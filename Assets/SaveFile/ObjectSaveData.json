@@ -12,11 +12,11 @@
                 "z": 0.0
             },
             "_status": {
-                "Lv": 6,
-                "Hp": 15,
-                "Attack": 6,
+                "Lv": 1,
+                "Hp": 5,
+                "Attack": 1,
                 "AttackSpeed": 0.10000000149011612,
-                "Defence": 6,
+                "Defence": 1,
                 "LvUpTime": 10,
                 "ObjNum": 1
             }
@@ -33,18 +33,18 @@
                 "z": 0.0
             },
             "_status": {
-                "Lv": 3,
-                "Hp": 5,
-                "Attack": 14,
+                "Lv": 1,
+                "Hp": 3,
+                "Attack": 10,
                 "AttackSpeed": 0.4000000059604645,
-                "Defence": 2,
+                "Defence": 0,
                 "LvUpTime": 30,
                 "ObjNum": 2
             }
         },
         {
             "Name": "3",
-            "Lock": false,
+            "Lock": true,
             "GameObj": {
                 "instanceID": 0
             },

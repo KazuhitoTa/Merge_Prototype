@@ -194,10 +194,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 90cdd24f184321140a878e211190d077, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  kindNumber: 0
   currentHP: 0
   hpBar: {fileID: 1435147124645040465, guid: fdedfd76bba39d94889afd323bb6d16e, type: 3}
   barPos: {fileID: 1778133651231377378}
-  unitStatusSO: {fileID: 11400000, guid: 253caa5320d06dd4fb673a11fd1c6bca, type: 2}
 --- !u!61 &1747664264097318463
 BoxCollider2D:
   m_ObjectHideFlags: 0

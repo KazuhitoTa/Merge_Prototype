@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 using UnityEngine.UI;
 using System.IO;
 using TMPro;
@@ -482,7 +483,12 @@ public class MapManager : MonoBehaviour
         {
             tower.ManagedUpdate();
         }
-        if(towerCount==0)gameText.text="Game Over";
+        if(towerCount==0)
+        {
+            gameText.text="Game Over";
+            Invoke("ChangeScene",5.0f);
+        }
+        
     }
 
     public void TowerCountMinus(int number)
@@ -518,5 +524,10 @@ public class MapManager : MonoBehaviour
                 mapDate[row][column] = 999;
             }
         }
+    }
+
+    void ChangeScene()
+    {
+        SceneManager.LoadScene("StageSelect");
     }
 }

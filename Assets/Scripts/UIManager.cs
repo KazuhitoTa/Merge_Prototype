@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 using UnityEditor;
 using UnityEngine.UI;
 using System;
@@ -210,6 +211,11 @@ public class UIManager : MonoBehaviour
     public void SetAlreadyReleaseMenu()
     {
         SetExchangeActive(MenuCanvas[4],MenuCanvas[7]);
+    }
+
+    public void StageSelect()
+    {
+        SceneManager.LoadScene("StageSelect");
     }
 
 }

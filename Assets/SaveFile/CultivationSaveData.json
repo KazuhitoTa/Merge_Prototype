@@ -3,7 +3,7 @@
         "SelectCoreNum": 1,
         "CultivationStartTime_string": "",
         "CultivationFinishTime_stirng": "",
-        "CultivationLastTime_stirng": "0001/01/01 0:00:00",
+        "CultivationLastTime_stirng": "",
         "Cultivation_Stop": true,
         "Cultivation_Time": 0
     },

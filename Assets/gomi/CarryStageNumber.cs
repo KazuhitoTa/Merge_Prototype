@@ -21,5 +21,9 @@ public class CarryStageNumber : MonoBehaviour
         StageNumber=2;
         SceneManager.LoadScene("test");
     }
+    public void Ikusei()
+    {
+        SceneManager.LoadScene("NeglectfulDevelopment");
+    }
 
 }

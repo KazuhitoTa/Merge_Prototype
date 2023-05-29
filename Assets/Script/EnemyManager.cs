@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 using TMPro;
 
 public class EnemyManager : MonoBehaviour
@@ -81,6 +82,11 @@ public class EnemyManager : MonoBehaviour
 		Destroy(enemy.gameObject);
     }
 
+	void ChangeScene()
+    {
+        SceneManager.LoadScene("StageSelect");
+    }
+
 
 	// Updateの呼び出しを制御する
 	public void ManagedUpdate()
@@ -90,7 +96,12 @@ public class EnemyManager : MonoBehaviour
 		{
 			enemy.ManagedUpdate();
 		}
-		if(_enemies.Count==0&&check)text.text="GameClear";
+		if(_enemies.Count==0&&check)
+		{
+			text.text="GameClear";
+			Invoke("ChangeScene",5.0f);
+		}
+		
 	}
 
 }

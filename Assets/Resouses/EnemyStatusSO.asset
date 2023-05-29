@@ -17,11 +17,11 @@ MonoBehaviour:
     enemyName: "\u30B9\u30B1\u30EB\u30C8\u30F3"
     hp: 10
     attackSpeed: 1
-    attack: 3
-    speed: 1
+    attack: 101
+    speed: 2
   - enemyModel: {fileID: 3255399201851848945, guid: ed037954af7e7d5409b2bce5973d2723, type: 3}
     enemyName: "\u30B9\u30B1\u30EB\u30C8\u30F32"
-    hp: 2
+    hp: 20
     attackSpeed: 1
-    attack: 4
+    attack: 100
     speed: 2

@@ -5,8 +5,7 @@
     "CultivationDataFile": "CultivationSaveData.json",
     "ObjectDataFile": "ObjectSaveData.json",
     "ObjectInitDataFile": "ObjectInitSaveData.json",
-    "FirstPlayTime": "2023/05/22 12:31:02",
-    "LastPlayTime": "2023/05/26 14:52:00",
-    "Initialize": false,
-    "a": []
+    "FirstPlayTime": "2023/05/29 14:09:12",
+    "LastPlayTime": "2023/05/29 14:09:17",
+    "Initialize": false
 }
