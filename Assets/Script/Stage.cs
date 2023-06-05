@@ -1,5 +1,6 @@
 using System.Collections;
 using System.Collections.Generic;
+using UnityEngine.SceneManagement;
 using UnityEngine;
 using System.IO;
 using TMPro;
@@ -32,6 +33,7 @@ public class Stage : MonoBehaviour
 
     void Update()
     {
+        if(Input.GetKeyDown(KeyCode.Space))SceneManager.LoadScene("StageSelect");
         if(pause)return;
         _mapManager.ManagedUpdate();
         _unitManager.ManagedUpdate();
